@@ -1,5 +1,6 @@
 import HeroIllustration from "@/components/HeroIllustration";
 import ScrollObserver from "@/components/ScrollObserver";
+import MobileNav from "@/components/MobileNav";
 
 const marqueeItems = [
   "Web Design",
@@ -27,6 +28,7 @@ export default function Home() {
           <li><a href="#process">Process</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <MobileNav />
       </nav>
 
       {/* HERO */}

@@ -940,3 +940,262 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ── MOBILE NAV ── */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 200;
+}
+
+.hamburger-line {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background: var(--ink);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.hamburger-line.open:first-child {
+  transform: translateY(3.75px) rotate(45deg);
+}
+
+.hamburger-line.open:last-child {
+  transform: translateY(-3.75px) rotate(-45deg);
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* ── RESPONSIVE ── */
+
+/* Tablet: 768px以下 */
+@media (max-width: 768px) {
+  /* Nav */
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: var(--cream);
+    z-index: 150;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  .mobile-menu.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .mobile-menu-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2.5rem;
+  }
+
+  .mobile-menu-links a {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+  }
+
+  /* Hero */
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-left {
+    padding: 7rem 1.5rem 3rem;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
+  .hero-right {
+    min-height: 50vh;
+  }
+
+  .scroll-indicator {
+    left: 1.5rem;
+    bottom: 2rem;
+  }
+
+  /* Marquee */
+  .marquee-item {
+    font-size: 0.9rem;
+    padding: 0 2rem;
+  }
+
+  /* About */
+  .section-about {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .about-left {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-right {
+    padding: 4rem 1.5rem;
+  }
+
+  .stat-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+  /* Services */
+  .section-services {
+    padding: 5rem 1.5rem;
+  }
+
+  .services-header {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 2.5rem 2rem;
+  }
+
+  /* Team */
+  .section-team {
+    padding: 5rem 1.5rem;
+  }
+
+  .team-header {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  /* Process */
+  .section-process {
+    padding: 5rem 1.5rem;
+  }
+
+  .process-header {
+    margin-bottom: 3rem;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .process-steps::before {
+    display: none;
+  }
+
+  .process-step {
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 1.5rem;
+  }
+
+  .step-dot {
+    grid-row: 1 / 4;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+  }
+
+  /* CTA */
+  .section-cta {
+    padding: 5rem 1.5rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* Small mobile: 480px以下 */
+@media (max-width: 480px) {
+  .hero-left {
+    padding: 6rem 1.2rem 2.5rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 10vw, 3.5rem);
+  }
+
+  .hero-subtitle br {
+    display: none;
+  }
+
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    gap: 2.5rem;
+  }
+
+  .team-portrait {
+    aspect-ratio: 4/3;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .mobile-menu-links a {
+    font-size: 1.5rem;
+  }
+}
