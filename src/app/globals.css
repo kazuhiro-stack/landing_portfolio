@@ -581,6 +581,10 @@ nav {
   background: linear-gradient(135deg, #3a7ca5, #1f5a7e);
 }
 
+.portrait-7 {
+  background: linear-gradient(135deg, #5a8a5e, #3d6b40);
+}
+
 .portrait-initial {
   position: absolute;
   bottom: 1.5rem;
