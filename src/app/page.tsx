@@ -171,6 +171,17 @@ export default function Home() {
         <div className="team-slider observe-fade">
           <div className="team-track">
             <div className="team-card">
+              <div className="team-portrait portrait-7">
+                <div className="portrait-initial">W</div>
+                <div className="portrait-role-badge">Admin</div>
+              </div>
+              <h3 className="team-name">ワイビー</h3>
+              <p className="team-role">営業・事務担当 / Business Development</p>
+              <p className="team-bio">
+                様々な業界経験があり、お客様にご満足いただけるようチームを支える縁の下の力持ち。プロジェクトにおける総務の役割を担当します。
+              </p>
+            </div>
+            <div className="team-card">
               <div className="team-portrait portrait-1">
                 <div className="portrait-initial">K</div>
                 <div className="portrait-role-badge">Sales</div>
@@ -234,17 +245,6 @@ export default function Home() {
               <p className="team-role">ライター / Content Strategy</p>
               <p className="team-bio">
                 旅行ジャーナリストとしての経験を持つコンテンツストラテジスト。旅の魅力を言葉で伝え、SEOにも強い記事・コピーを制作します。
-              </p>
-            </div>
-            <div className="team-card">
-              <div className="team-portrait portrait-7">
-                <div className="portrait-initial">W</div>
-                <div className="portrait-role-badge">Admin</div>
-              </div>
-              <h3 className="team-name">ワイビー</h3>
-              <p className="team-role">営業・事務担当 / Business Development</p>
-              <p className="team-bio">
-                様々な業界経験があり、お客様にご満足いただけるようチームを支える縁の下の力持ち。プロジェクトにおける総務の役割を担当します。
               </p>
             </div>
           </div>
