@@ -7,7 +7,7 @@ const marqueeItems = [
   "旅行業界特化",
   "UI / UX",
   "SEO対策",
-  "予約システム連携",
+  "ブランディング",
   "コンバージョン改善",
 ];
 
@@ -45,7 +45,7 @@ export default function Home() {
           <p className="hero-subtitle">
             旅行業界に特化したWeb制作集団。
             <br />
-            集客・予約・体験設計まで、
+            集客・体験設計まで、
             <br />
             デジタルの力で旅をデザインします。
           </p>
@@ -83,56 +83,21 @@ export default function Home() {
         <div className="about-left observe-fade">
           <p className="about-number">— 01 / About</p>
           <h2 className="about-heading">
-            旅行業界を
+            旅の魅力を届ける
             <br />
-            知り尽くした
+            <em>クリエイティブ</em>
             <br />
-            <em>プロ集団。</em>
+            <em>チーム。</em>
           </h2>
           <p className="about-body">
             私たちVOYAGE
-            WORKSは、旅行会社・ホテル・観光施設のWeb改善に特化したクリエイティブチームです。業界の商慣習・予約フロー・訴求ポイントを熟知したうえで、デザインとコードで成果を届けます。
+            WORKSは、旅行会社・ホテル・観光施設のWeb改善に特化したクリエイティブチームです。デザインとコードの力で、旅の魅力を最大限に引き出し、成果を届けます。
           </p>
         </div>
         <div className="about-right observe-fade">
-          <div className="stat-grid">
-            <div className="stat-item">
-              <div className="stat-number">
-                60<span className="stat-unit">+</span>
-              </div>
-              <div className="stat-label">Projects</div>
-              <div className="stat-desc">
-                旅行業界専門の制作実績。中小旅行代理店から大手ホテルチェーンまで。
-              </div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">
-                2.3<span className="stat-unit">×</span>
-              </div>
-              <div className="stat-label">CVR Avg. Lift</div>
-              <div className="stat-desc">
-                改善後の平均コンバージョン率向上倍率。予約数増加に直結します。
-              </div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">
-                3<span className="stat-unit">名</span>
-              </div>
-              <div className="stat-label">Core Members</div>
-              <div className="stat-desc">
-                営業・デザイン・エンジニアが一体となりプロジェクトを推進します。
-              </div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">
-                95<span className="stat-unit">%</span>
-              </div>
-              <div className="stat-label">Repeat Rate</div>
-              <div className="stat-desc">
-                クライアントリピート率。継続的なパートナーシップで成果を出し続けます。
-              </div>
-            </div>
-          </div>
+          <p className="about-body-right">
+            Webサイトのリニューアルからコンバージョン改善、SEO・コンテンツ戦略まで。旅行ビジネスの成長をデジタルの力でサポートします。
+          </p>
         </div>
       </section>
 
@@ -166,12 +131,12 @@ export default function Home() {
           <div className="service-card">
             <div className="service-num">02</div>
             <h3 className="service-title">
-              予約体験
+              UX改善 /
               <br />
-              UX改善
+              CVR向上
             </h3>
             <p className="service-body">
-              離脱率・予約完了率を徹底分析。フォーム最適化・UI改善・A/Bテストにより、既存サイトのコンバージョン向上を実現します。
+              離脱率・コンバージョン率を徹底分析。フォーム最適化・UI改善・A/Bテストにより、既存サイトの成果向上を実現します。
             </p>
             <div className="service-tags">
               <span className="service-tag">UI改善</span>
@@ -320,7 +285,7 @@ export default function Home() {
               <li><a href="#">Webリニューアル</a></li>
               <li><a href="#">UX改善</a></li>
               <li><a href="#">SEO / コンテンツ</a></li>
-              <li><a href="#">予約システム連携</a></li>
+              <li><a href="#">ブランディング</a></li>
             </ul>
           </div>
           <div>
