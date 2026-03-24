@@ -24,7 +24,7 @@ export default function MobileNav() {
 
       <div className={`mobile-menu ${open ? "active" : ""}`}>
         <ul className="mobile-menu-links">
-          {["about", "services", "team", "process", "contact"].map((id) => (
+          {["services", "team", "process", "contact"].map((id) => (
             <li key={id}>
               <a
                 href={`#${id}`}

@@ -22,7 +22,6 @@ export default function Home() {
           Voyage Works
         </a>
         <ul className="nav-links">
-          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#process">Process</a></li>
@@ -169,39 +168,74 @@ export default function Home() {
           <span className="section-label">— 03 / Team</span>
           <h2 className="section-title">私たちのチーム</h2>
         </div>
-        <div className="team-grid observe-fade">
-          <div className="team-card">
-            <div className="team-portrait portrait-1">
-              <div className="portrait-initial">K</div>
-              <div className="portrait-role-badge">Sales</div>
+        <div className="team-slider observe-fade">
+          <div className="team-track">
+            <div className="team-card">
+              <div className="team-portrait portrait-1">
+                <div className="portrait-initial">K</div>
+                <div className="portrait-role-badge">Sales</div>
+              </div>
+              <h3 className="team-name">Kenji Tanaka</h3>
+              <p className="team-role">営業担当 / Business Development</p>
+              <p className="team-bio">
+                旅行業界10年以上の営業経験を持ち、クライアントの課題を深く理解。「売れるWeb」を作るための要件定義から、プロジェクト全体のコーディネートまでを担当します。
+              </p>
             </div>
-            <h3 className="team-name">Kenji Tanaka</h3>
-            <p className="team-role">営業担当 / Business Development</p>
-            <p className="team-bio">
-              旅行業界10年以上の営業経験を持ち、クライアントの課題を深く理解。「売れるWeb」を作るための要件定義から、プロジェクト全体のコーディネートまでを担当します。
-            </p>
-          </div>
-          <div className="team-card">
-            <div className="team-portrait portrait-2">
-              <div className="portrait-initial">A</div>
-              <div className="portrait-role-badge">Design</div>
+            <div className="team-card">
+              <div className="team-portrait portrait-2">
+                <div className="portrait-initial">A</div>
+                <div className="portrait-role-badge">Design</div>
+              </div>
+              <h3 className="team-name">Aiko Yamamoto</h3>
+              <p className="team-role">デザイナー / UX / Visual Design</p>
+              <p className="team-bio">
+                旅の感動を視覚で伝えることに情熱を注ぐデザイナー。UI/UXの論理的設計と、旅情あふれるビジュアルを両立させた「予約したくなるデザイン」を追求します。
+              </p>
             </div>
-            <h3 className="team-name">Aiko Yamamoto</h3>
-            <p className="team-role">デザイナー / UX / Visual Design</p>
-            <p className="team-bio">
-              旅の感動を視覚で伝えることに情熱を注ぐデザイナー。UI/UXの論理的設計と、旅情あふれるビジュアルを両立させた「予約したくなるデザイン」を追求します。
-            </p>
-          </div>
-          <div className="team-card">
-            <div className="team-portrait portrait-3">
-              <div className="portrait-initial">R</div>
-              <div className="portrait-role-badge">Engineer</div>
+            <div className="team-card">
+              <div className="team-portrait portrait-3">
+                <div className="portrait-initial">R</div>
+                <div className="portrait-role-badge">Engineer</div>
+              </div>
+              <h3 className="team-name">Ryo Sasaki</h3>
+              <p className="team-role">エンジニア / Frontend & CMS</p>
+              <p className="team-bio">
+                パフォーマンス・SEO・予約システム連携を得意とするフロントエンドエンジニア。美しいデザインを高速・高品質なコードで忠実に実装し、事業成果に繋げます。
+              </p>
             </div>
-            <h3 className="team-name">Ryo Sasaki</h3>
-            <p className="team-role">エンジニア / Frontend & CMS</p>
-            <p className="team-bio">
-              パフォーマンス・SEO・予約システム連携を得意とするフロントエンドエンジニア。美しいデザインを高速・高品質なコードで忠実に実装し、事業成果に繋げます。
-            </p>
+            <div className="team-card">
+              <div className="team-portrait portrait-4">
+                <div className="portrait-initial">M</div>
+                <div className="portrait-role-badge">Director</div>
+              </div>
+              <h3 className="team-name">Mai Suzuki</h3>
+              <p className="team-role">ディレクター / Project Management</p>
+              <p className="team-bio">
+                旅行メディアの運営経験を活かし、Webプロジェクト全体を統括。クライアントのビジョンをチームに伝え、スケジュール・品質を管理します。
+              </p>
+            </div>
+            <div className="team-card">
+              <div className="team-portrait portrait-5">
+                <div className="portrait-initial">T</div>
+                <div className="portrait-role-badge">Marketing</div>
+              </div>
+              <h3 className="team-name">Takeshi Ono</h3>
+              <p className="team-role">マーケター / SEO & Analytics</p>
+              <p className="team-bio">
+                データドリブンなマーケティング戦略で旅行サイトの集客を支援。SEO・広告運用・アクセス解析を駆使し、コンバージョン最大化を実現します。
+              </p>
+            </div>
+            <div className="team-card">
+              <div className="team-portrait portrait-6">
+                <div className="portrait-initial">Y</div>
+                <div className="portrait-role-badge">Writer</div>
+              </div>
+              <h3 className="team-name">Yuki Nakamura</h3>
+              <p className="team-role">ライター / Content Strategy</p>
+              <p className="team-bio">
+                旅行ジャーナリストとしての経験を持つコンテンツストラテジスト。旅の魅力を言葉で伝え、SEOにも強い記事・コピーを制作します。
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -265,7 +299,7 @@ export default function Home() {
         <p className="cta-subtitle">
           まずは無料相談から。現状のWebサイトの課題を一緒に洗い出し、具体的な改善案をご提案します。
         </p>
-        <a href="mailto:hello@voyage-works.jp" className="btn-secondary">
+        <a href="mailto:marketing@unalogy.com" className="btn-secondary">
           無料相談を申し込む
         </a>
       </section>
@@ -280,29 +314,16 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <p className="footer-col-title">Services</p>
-            <ul className="footer-links">
-              <li><a href="#">Webリニューアル</a></li>
-              <li><a href="#">UX改善</a></li>
-              <li><a href="#">SEO / コンテンツ</a></li>
-              <li><a href="#">ブランディング</a></li>
-            </ul>
-          </div>
-          <div>
             <p className="footer-col-title">Company</p>
             <ul className="footer-links">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="#team">Team</a></li>
             </ul>
           </div>
           <div>
             <p className="footer-col-title">Contact</p>
             <ul className="footer-links">
-              <li><a href="#">無料相談</a></li>
-              <li><a href="#">hello@voyage-works.jp</a></li>
-              <li><a href="#">採用情報</a></li>
+              <li><a href="#contact">無料相談</a></li>
+              <li><a href="mailto:marketing@unalogy.com">marketing@unalogy.com</a></li>
             </ul>
           </div>
         </div>
