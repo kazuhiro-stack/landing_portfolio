@@ -171,80 +171,74 @@ export default function Home() {
         <div className="team-slider observe-fade">
           <div className="team-track">
             <div className="team-card">
-              <div className="team-portrait portrait-7">
-                <div className="portrait-initial">W</div>
+              <div className="team-portrait portrait-1">
+                <img src="/team/okamoto.jpg" alt="Hiromitsu Okamoto" className="portrait-image" />
+                <div className="portrait-initial">H</div>
                 <div className="portrait-role-badge">Admin</div>
               </div>
-              <h3 className="team-name">ワイビー</h3>
-              <p className="team-role">営業・事務担当 / Business Development</p>
+              <h3 className="team-name">Hiromitsu Okamoto</h3>
+              <p className="team-role">営業・事務担当</p>
               <p className="team-bio">
                 様々な業界経験があり、お客様にご満足いただけるようチームを支える縁の下の力持ち。プロジェクトにおける総務の役割を担当します。
               </p>
             </div>
             <div className="team-card">
-              <div className="team-portrait portrait-1">
-                <div className="portrait-initial">K</div>
-                <div className="portrait-role-badge">Sales</div>
-              </div>
-              <h3 className="team-name">Kenji Tanaka</h3>
-              <p className="team-role">営業担当 / Business Development</p>
-              <p className="team-bio">
-                旅行業界10年以上の営業経験を持ち、クライアントの課題を深く理解。「売れるWeb」を作るための要件定義から、プロジェクト全体のコーディネートまでを担当します。
-              </p>
-            </div>
-            <div className="team-card">
               <div className="team-portrait portrait-2">
-                <div className="portrait-initial">A</div>
+                <img src="/team/hirai.jpg" alt="Makoto Hirai" className="portrait-image" />
+                <div className="portrait-initial">M</div>
                 <div className="portrait-role-badge">Design</div>
               </div>
-              <h3 className="team-name">Aiko Yamamoto</h3>
-              <p className="team-role">デザイナー / UX / Visual Design</p>
+              <h3 className="team-name">Makoto Hirai</h3>
+              <p className="team-role">Webデザイン・Webコーディング</p>
               <p className="team-bio">
-                旅の感動を視覚で伝えることに情熱を注ぐデザイナー。UI/UXの論理的設計と、旅情あふれるビジュアルを両立させた「予約したくなるデザイン」を追求します。
               </p>
             </div>
             <div className="team-card">
               <div className="team-portrait portrait-3">
+                <img src="/team/nishibata.jpg" alt="Rena Nishibata" className="portrait-image" />
                 <div className="portrait-initial">R</div>
                 <div className="portrait-role-badge">Engineer</div>
               </div>
-              <h3 className="team-name">Ryo Sasaki</h3>
-              <p className="team-role">エンジニア / Frontend & CMS</p>
+              <h3 className="team-name">Rena Nishibata</h3>
+              <p className="team-role">Webコーディング / IT・業務効率化 / 事務</p>
               <p className="team-bio">
-                パフォーマンス・SEO・予約システム連携を得意とするフロントエンドエンジニア。美しいデザインを高速・高品質なコードで忠実に実装し、事業成果に繋げます。
+                業務効率化とツール開発を得意とするシステムエンジニアです。現場に寄り添った改善提案と丁寧な対応を大切にしています。
               </p>
             </div>
             <div className="team-card">
               <div className="team-portrait portrait-4">
+                <img src="/team/oka.jpg" alt="Misato Oka" className="portrait-image" />
                 <div className="portrait-initial">M</div>
-                <div className="portrait-role-badge">Director</div>
+                <div className="portrait-role-badge">Design</div>
               </div>
-              <h3 className="team-name">Mai Suzuki</h3>
-              <p className="team-role">ディレクター / Project Management</p>
+              <h3 className="team-name">Misato Oka</h3>
+              <p className="team-role">グラフィックデザイン</p>
               <p className="team-bio">
-                旅行メディアの運営経験を活かし、Webプロジェクト全体を統括。クライアントのビジョンをチームに伝え、スケジュール・品質を管理します。
+                グラフィックデザイナーとして活躍している方の元でデザインを学び、それを活かし、現在POPやチラシ、本の表紙デザイン、バナーデザイン作成などに携わっています。
               </p>
             </div>
             <div className="team-card">
               <div className="team-portrait portrait-5">
-                <div className="portrait-initial">T</div>
-                <div className="portrait-role-badge">Marketing</div>
+                <img src="/team/oishi.jpg" alt="Mai Oishi" className="portrait-image" />
+                <div className="portrait-initial">M</div>
+                <div className="portrait-role-badge">Design</div>
               </div>
-              <h3 className="team-name">Takeshi Ono</h3>
-              <p className="team-role">マーケター / SEO & Analytics</p>
+              <h3 className="team-name">Mai Oishi</h3>
+              <p className="team-role">Webデザイナー・コーダー / Web Designer・Markup Engineer</p>
               <p className="team-bio">
-                データドリブンなマーケティング戦略で旅行サイトの集客を支援。SEO・広告運用・アクセス解析を駆使し、コンバージョン最大化を実現します。
+                ヒアリングからデザイン、実装を見据えた設計まで、一つひとつ丁寧に向き合っています。情報整理と見やすさを大切にし、伝えたいことがきちんと届くWeb制作を目指しています。
               </p>
             </div>
             <div className="team-card">
               <div className="team-portrait portrait-6">
-                <div className="portrait-initial">Y</div>
-                <div className="portrait-role-badge">Writer</div>
+                <img src="/team/oda.jpg" alt="Kazuhiro Oda" className="portrait-image" />
+                <div className="portrait-initial">K</div>
+                <div className="portrait-role-badge">PM</div>
               </div>
-              <h3 className="team-name">Yuki Nakamura</h3>
-              <p className="team-role">ライター / Content Strategy</p>
+              <h3 className="team-name">Kazuhiro Oda</h3>
+              <p className="team-role">プロジェクトマネージャー / 営業担当</p>
               <p className="team-bio">
-                旅行ジャーナリストとしての経験を持つコンテンツストラテジスト。旅の魅力を言葉で伝え、SEOにも強い記事・コピーを制作します。
+                金融機関での商品企画・営業からおよびコンサルティングファームでの営業部門の立ち上げ等、異なる領域をゼロから切り拓いてきた経験を持つ。プロジェクト全体の推進と顧客折衝を担い、チームの力を最大化します。
               </p>
             </div>
           </div>
