@@ -1108,13 +1108,19 @@ footer {
 
   /* Team */
   .section-team {
-    padding: 5rem 0 5rem 1.5rem;
+    padding: 5rem 0 5rem 1rem;
   }
 
   .team-header {
     flex-direction: column;
     gap: 0.8rem;
     margin-bottom: 3rem;
+    padding-right: 1rem;
+  }
+
+  .team-track {
+    gap: 1rem;
+    padding-right: 1rem;
   }
 
   .team-card {
