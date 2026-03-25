@@ -1193,7 +1193,7 @@ footer {
 /* Small mobile: 480px以下 */
 @media (max-width: 480px) {
   .hero-left {
-    padding: 2rem 1.2rem 2.5rem;
+    padding: 6rem 1.2rem 2.5rem;
   }
 
   .hero-title {
