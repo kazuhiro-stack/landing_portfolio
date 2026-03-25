@@ -515,7 +515,7 @@ nav {
   min-width: 280px;
 }
 
-.team- {
+.team-portrait {
   width: 100%;
   aspect-ratio: 3/4;
   position: relative;
@@ -523,15 +523,15 @@ nav {
   margin-bottom: 1.5rem;
 }
 
-.-1 {
+.portrait-1 {
   background: linear-gradient(135deg, #2a6b6e, #1a4a4c);
 }
 
-.-2 {
+.portrait-2 {
   background: linear-gradient(135deg, #b85c38, #8a3f22);
 }
 
-.-3 {
+.portrait-3 {
   background: linear-gradient(135deg, #c49a3c, #9a7520);
 }
 
