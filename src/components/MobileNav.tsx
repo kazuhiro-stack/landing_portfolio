@@ -30,6 +30,14 @@ export default function MobileNav() {
 
       {mounted && createPortal(
         <div className={`mobile-menu ${open ? "active" : ""}`}>
+          <button
+            className="mobile-menu-close"
+            onClick={() => setOpen(false)}
+            aria-label="メニューを閉じる"
+          >
+            <span className="hamburger-line open" />
+            <span className="hamburger-line open" />
+          </button>
           <ul className="mobile-menu-links">
             {["services", "team", "process", "contact"].map((id) => (
               <li key={id}>
