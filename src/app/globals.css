@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
 body {
   background: var(--cream);
   color: var(--ink);
@@ -30,8 +36,9 @@ body {
 }
 
 .page-wrapper {
-  width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* ── NOISE OVERLAY ── */
