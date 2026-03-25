@@ -501,7 +501,6 @@ nav {
 .team-track {
   display: flex;
   gap: 2.5rem;
-  width: max-content;
 }
 
 .team-track::after {
