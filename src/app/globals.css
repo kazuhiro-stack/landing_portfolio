@@ -242,6 +242,21 @@ nav {
   animation: fadeIn 2s 1.5s forwards;
 }
 
+@media screen and (max-width: 769px) {
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-left{
+    order: 2;
+  }
+
+  .hero-right{
+    order: 1;
+  }
+}
+
 /* ── MARQUEE ── */
 .marquee-wrap {
   background: var(--ink);
