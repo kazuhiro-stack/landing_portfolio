@@ -502,7 +502,6 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 5rem;
-  margin-right: 4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 2rem;
 }
@@ -972,7 +971,7 @@ footer {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  z-index: 200;
+  z-index: 2000;
 }
 
 .hamburger-line {
@@ -1017,10 +1016,11 @@ footer {
     position: fixed;
     inset: 0;
     background: #ffffff;
-    z-index: 150;
+    z-index: 1500;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
+    mix-blend-mode: normal;
   }
 
   .mobile-menu.active {
@@ -1116,7 +1116,6 @@ footer {
     flex-direction: column;
     gap: 0.8rem;
     margin-bottom: 3rem;
-    margin-right: 1.5rem;
   }
 
   .team-card {
