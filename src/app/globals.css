@@ -22,6 +22,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   color: var(--ink);
   font-family: "Noto Serif JP", serif;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* ── NOISE OVERLAY ── */
@@ -522,6 +524,7 @@ nav {
   scrollbar-width: thin;
   scrollbar-color: var(--mist) transparent;
   padding-bottom: 1rem;
+  max-width: 100%;
 }
 
 .team-slider::-webkit-scrollbar {
