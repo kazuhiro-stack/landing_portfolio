@@ -171,6 +171,18 @@ export default function Home() {
         <div className="team-slider observe-fade">
           <div className="team-track">
             <div className="team-card">
+              <div className="team-portrait portrait-6">
+                <img src="/team/oda.jpg" alt="Kazuhiro Oda" className="portrait-image" />
+                <div className="portrait-initial">K</div>
+                <div className="portrait-role-badge">PM</div>
+              </div>
+              <h3 className="team-name">Kazuhiro Oda</h3>
+              <p className="team-role">プロジェクトマネージャー / 営業担当</p>
+              <p className="team-bio">
+                金融機関での商品企画・営業からおよびコンサルティングファームでの営業部門の立ち上げ等、異なる領域をゼロから切り拓いてきた経験を持つ。プロジェクト全体の推進と顧客折衝を担い、チームの力を最大化します。
+              </p>
+            </div>
+            <div className="team-card">
               <div className="team-portrait portrait-1">
                 <img src="/team/okamoto.jpg" alt="Hiromitsu Okamoto" className="portrait-image" />
                 <div className="portrait-initial">H</div>
@@ -227,18 +239,6 @@ export default function Home() {
               <p className="team-role">Webデザイナー・コーダー / Web Designer・Markup Engineer</p>
               <p className="team-bio">
                 ヒアリングからデザイン、実装を見据えた設計まで、一つひとつ丁寧に向き合っています。情報整理と見やすさを大切にし、伝えたいことがきちんと届くWeb制作を目指しています。
-              </p>
-            </div>
-            <div className="team-card">
-              <div className="team-portrait portrait-6">
-                <img src="/team/oda.jpg" alt="Kazuhiro Oda" className="portrait-image" />
-                <div className="portrait-initial">K</div>
-                <div className="portrait-role-badge">PM</div>
-              </div>
-              <h3 className="team-name">Kazuhiro Oda</h3>
-              <p className="team-role">プロジェクトマネージャー / 営業担当</p>
-              <p className="team-bio">
-                金融機関での商品企画・営業からおよびコンサルティングファームでの営業部門の立ち上げ等、異なる領域をゼロから切り拓いてきた経験を持つ。プロジェクト全体の推進と顧客折衝を担い、チームの力を最大化します。
               </p>
             </div>
           </div>
