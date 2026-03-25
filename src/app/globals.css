@@ -515,29 +515,24 @@ nav {
   min-width: 280px;
 }
 
-.team-portrait {
+.team- {
   width: 100%;
   aspect-ratio: 3/4;
-  background: var(--teal);
   position: relative;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
 
-.portrait-1 {
+.-1 {
   background: linear-gradient(135deg, #2a6b6e, #1a4a4c);
 }
 
-.portrait-2 {
+.-2 {
   background: linear-gradient(135deg, #b85c38, #8a3f22);
 }
 
-.portrait-3 {
+.-3 {
   background: linear-gradient(135deg, #c49a3c, #9a7520);
-}
-
-.portrait-4 {
-  background: linear-gradient(135deg, #8eadb0, #5e8a8d);
 }
 
 .portrait-5 {
