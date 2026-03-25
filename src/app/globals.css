@@ -246,28 +246,6 @@ nav {
   animation: fadeIn 2s 1.5s forwards;
 }
 
-@media screen and (max-width: 769px) {
-  .disp-sp{
-    display: inline-block;
-  }
-  .hero{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero-left{
-    order: 2;
-  }
-
-  .hero-right{
-    order: 1;
-  }
-
-  .hero-eyebrow{
-    margin-bottom: 1rem;
-  }
-}
-
 /* ── MARQUEE ── */
 .marquee-wrap {
   background: var(--ink);
@@ -1192,8 +1170,24 @@ footer {
 
 /* Small mobile: 480px以下 */
 @media (max-width: 480px) {
+
+  .hero{
+    position: relative;
+  }
+  .disp-sp{
+    display: inline-block;
+  }
+
   .hero-left {
+    position: absolute;
     padding: 6rem 1.2rem 2.5rem;
+    top: 10px;
+    
+  }
+
+  .hero-right{
+    position: absolute;
+    top: 10px;
   }
 
   .hero-title {
@@ -1202,6 +1196,10 @@ footer {
 
   .hero-subtitle br {
     display: none;
+  }
+
+  .hero-eyebrow{
+    margin-bottom: 1rem;
   }
 
   .team-card {
