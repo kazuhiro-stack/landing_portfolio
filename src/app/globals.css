@@ -477,7 +477,7 @@ nav {
 
 /* ── TEAM ── */
 .section-team {
-  padding: 10rem 4rem;
+  padding: 10rem 0 10rem 4rem;
   background: var(--ink);
   position: relative;
   overflow: hidden;
@@ -502,6 +502,7 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 5rem;
+  margin-right: 4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 2rem;
 }
@@ -1015,7 +1016,7 @@ footer {
     display: block;
     position: fixed;
     inset: 0;
-    background: var(--cream);
+    background: #ffffff;
     z-index: 150;
     opacity: 0;
     pointer-events: none;
@@ -1108,13 +1109,14 @@ footer {
 
   /* Team */
   .section-team {
-    padding: 5rem 1.5rem;
+    padding: 5rem 0 5rem 1.5rem;
   }
 
   .team-header {
     flex-direction: column;
     gap: 0.8rem;
     margin-bottom: 3rem;
+    margin-right: 1.5rem;
   }
 
   .team-card {
