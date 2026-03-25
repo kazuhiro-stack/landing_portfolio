@@ -1027,6 +1027,24 @@ footer {
     pointer-events: auto;
   }
 
+  .mobile-menu-close {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 10;
+  }
+
+  .mobile-menu-close .hamburger-line {
+    background: var(--ink);
+  }
+
   .mobile-menu-links {
     list-style: none;
     display: flex;
