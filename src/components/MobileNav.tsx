@@ -1,9 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -22,20 +28,23 @@ export default function MobileNav() {
         <span className={`hamburger-line ${open ? "open" : ""}`} />
       </button>
 
-      <div className={`mobile-menu ${open ? "active" : ""}`}>
-        <ul className="mobile-menu-links">
-          {["services", "team", "process", "contact"].map((id) => (
-            <li key={id}>
-              <a
-                href={`#${id}`}
-                onClick={() => setOpen(false)}
-              >
-                {id.charAt(0).toUpperCase() + id.slice(1)}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+      {mounted && createPortal(
+        <div className={`mobile-menu ${open ? "active" : ""}`}>
+          <ul className="mobile-menu-links">
+            {["services", "team", "process", "contact"].map((id) => (
+              <li key={id}>
+                <a
+                  href={`#${id}`}
+                  onClick={() => setOpen(false)}
+                >
+                  {id.charAt(0).toUpperCase() + id.slice(1)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>,
+        document.body
+      )}
     </>
   );
 }
