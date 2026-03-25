@@ -406,39 +406,6 @@ nav {
 .service-card {
   background: var(--cream);
   padding: 3.5rem 3rem;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  cursor: default;
-}
-
-.service-card::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  background: var(--teal);
-  transition: height 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-  z-index: 0;
-}
-
-.service-card:hover::before {
-  height: 100%;
-}
-
-.service-card:hover .service-title,
-.service-card:hover .service-body,
-.service-card:hover .service-num,
-.service-card:hover .service-tag {
-  color: var(--cream);
-  opacity: 1;
-}
-
-.service-card > * {
-  position: relative;
-  z-index: 1;
 }
 
 .service-num {
@@ -448,7 +415,6 @@ nav {
   color: var(--sand);
   line-height: 1;
   margin-bottom: 1.5rem;
-  transition: color 0.5s;
 }
 
 .service-title {
@@ -456,7 +422,6 @@ nav {
   font-size: 1.8rem;
   font-weight: 400;
   margin-bottom: 1rem;
-  transition: color 0.5s;
 }
 
 .service-body {
@@ -465,7 +430,6 @@ nav {
   line-height: 1.9;
   opacity: 0.7;
   letter-spacing: 0.05em;
-  transition: color 0.5s, opacity 0.5s;
   margin-bottom: 1.5rem;
 }
 
@@ -483,7 +447,6 @@ nav {
   border: 1px solid currentColor;
   padding: 0.3rem 0.7rem;
   opacity: 0.5;
-  transition: opacity 0.5s, color 0.5s;
 }
 
 /* ── TEAM ── */
@@ -705,21 +668,6 @@ nav {
   border: 2px solid var(--teal);
   margin-bottom: 2rem;
   position: relative;
-  transition: background 0.3s;
-}
-
-.step-dot::after {
-  content: "";
-  position: absolute;
-  inset: 3px;
-  border-radius: 50%;
-  background: var(--teal);
-  transform: scale(0);
-  transition: transform 0.3s;
-}
-
-.process-step:hover .step-dot::after {
-  transform: scale(1);
 }
 
 .step-number {
