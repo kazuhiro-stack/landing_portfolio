@@ -242,23 +242,6 @@ nav {
   animation: fadeIn 2s 1.5s forwards;
 }
 
-.scroll-line {
-  width: 1px;
-  height: 80px;
-  font-size: 40px;
-  background: var(--ink);
-  position: relative;
-  overflow: hidden;
-}
-
-.scroll-line::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--rust);
-  animation: scrollAnim 2s 2s infinite;
-}
-
 /* ── MARQUEE ── */
 .marquee-wrap {
   background: var(--ink);

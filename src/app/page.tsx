@@ -59,10 +59,6 @@ export default function Home() {
           <div className="hero-svg-wrap">
             <HeroIllustration />
           </div>
-          <div className="scroll-indicator">
-            <div className="scroll-line" />
-            <span>Scroll</span>
-          </div>
         </div>
       </section>
 
