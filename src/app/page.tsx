@@ -111,7 +111,7 @@ export default function Home() {
             <div className="service-num">01</div>
             <h3 className="service-title">
               Webサイト
-              <br />
+              <br className="disp-sp" />
               リニューアル
             </h3>
             <p className="service-body">
@@ -127,7 +127,7 @@ export default function Home() {
             <div className="service-num">02</div>
             <h3 className="service-title">
               UX改善 /
-              <br />
+              <br className="disp-sp" />
               CVR向上
             </h3>
             <p className="service-body">
@@ -143,7 +143,7 @@ export default function Home() {
             <div className="service-num">03</div>
             <h3 className="service-title">
               集客SEO/
-              <br />
+              <br className="disp-sp" />
               コンテンツ
             </h3>
             <p className="service-body">
