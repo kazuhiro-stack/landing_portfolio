@@ -542,6 +542,11 @@ nav {
   width: max-content;
 }
 
+.team-track::after {
+  content: "";
+  flex: 0 0 4rem;
+}
+
 .team-card {
   position: relative;
   flex: 0 0 300px;
@@ -1138,7 +1143,11 @@ footer {
 
   .team-track {
     gap: 1rem;
-    padding-right: 1rem;
+  }
+
+  .team-track::after {
+    content: "";
+    flex: 0 0 1rem;
   }
 
   .team-card {
