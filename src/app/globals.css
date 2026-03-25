@@ -971,7 +971,7 @@ footer {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  z-index: 2000;
+  z-index: 200;
 }
 
 .hamburger-line {
@@ -1016,11 +1016,10 @@ footer {
     position: fixed;
     inset: 0;
     background: #ffffff;
-    z-index: 1500;
+    z-index: 150;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
-    mix-blend-mode: normal;
   }
 
   .mobile-menu.active {
